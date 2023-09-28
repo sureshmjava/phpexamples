@@ -5,7 +5,8 @@
 
     var_dump($message);
     var_dump($count);
-    #var_dump($float_value);
+    var_dump($float_value);
+    var_dump($count+$float_value);
 
     echo $message;
     
