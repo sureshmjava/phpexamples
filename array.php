@@ -18,3 +18,12 @@
  foreach($array_var as $index => $value){
     echo $index . "-" .$value.",";
  }
+ 
+ #var_dump("The no of elementsin an array:".count($array_var));
+ echo "\nThe no of elements in an array:".count($array_var);
+
+ $primes = [2, 3, 5, 7, 11, 13, 17, 19];
+ 
+for ($i = 1; $i <= 3; $i++) {
+    echo $primes[$i] . ", ";
+}
