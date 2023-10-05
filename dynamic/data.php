@@ -1,17 +1,5 @@
 <?php
-
-    $serverName="localhost";
-    $userName="sureshblog";
-    $password="suresh@123";
-    $databaseName="blog";
-
-    $conn=mysqli_connect($serverName,$userName,$password,$databaseName);
-
-    if(mysqli_connect_error()){
-        echo "connection is not established";
-        exit();
-    }
-    
+    require "connection.php";
     $sql="select * from test_purpose";
 
     $result=mysqli_query($conn,$sql);
