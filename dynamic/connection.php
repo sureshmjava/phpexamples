@@ -11,5 +11,4 @@
         echo "connection is not established";
         exit();
     }
-    echo "Connection established sucessfully...!";
-?>
+   // echo "Connection established sucessfully...!";
